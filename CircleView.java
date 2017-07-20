@@ -22,6 +22,24 @@ import com.hskj.damnicomniplusvic.ctsvideo.R;
 /**
  * Created by damnicomniplus on 2016/4/8.
  */
+ 
+ /**
+ add the code to your style.xml
+ *<declare-styleable name="CircleView">
+        <attr name="maxProgressWidth" format="dimension"/>
+        <attr name="maxProgressColor" format="color"/>
+        <attr name="firstProgressWidth" format="dimension"/>
+        <attr name="firstProgressColor" format="color"/>
+        <attr name="secondProgressWidth" format="dimension"/>
+        <attr name="secondProgressColor" format="color"/>
+        <attr name="dotDiameter" format="dimension"/>
+        <attr name="dotColor" format="color"/>
+        <attr name="firstProgress" format="integer"/>
+        <attr name="secondProgress" format="integer"/>
+        <attr name="canDisplayDot" format="boolean"/>
+    </declare-styleable>
+ *
+ */
 public class CircleView extends View {
     private final int maxProgress = 99;
     private int firstProgress;
