@@ -18,6 +18,27 @@ import com.hskj.damnicomniplusvic.wevenation.R;
 import com.hskj.damnicomniplusvic.wevenation.util.LogUtils;
 import com.hskj.damnicomniplusvic.wevenation.util.Utils;
 
+
+/**
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableView">
+
+        <attr name="titleText" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextPadding" format="dimension" />
+        <attr name="titleGroupIndicator" format="reference" />
+        <attr name="titleDrawableLeft" format="reference" />
+        <attr name="titleDrawableTop" format="reference" />
+        <attr name="titleDrawableRight" format="reference" />
+        <attr name="titleDrawableBottom" format="reference" />
+        <attr name="titleDrawablePadding" format="dimension" />
+
+    </declare-styleable>
+</resources>
+*/
+
 /**
  * Created by CJJ on 2017/08/04 16:47.
  * Copyright © 2015-2017 HSKJ. All rights reserved.
